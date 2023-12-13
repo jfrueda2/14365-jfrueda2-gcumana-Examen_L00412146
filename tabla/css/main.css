@@ -1,0 +1,48 @@
+.table-container {
+   max-width: 800px; /* Ancho máximo para la tabla */
+   margin: 0 auto; /* Centrar el contenedor */
+   padding: 20px; /* Espacio alrededor de la tabla */
+   background-color: #f9f9f9; /* Color de fondo */
+   border-radius: 8px; /* Bordes redondeados */
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+   
+ }
+ 
+ /* Estilos para la tabla */
+ .data-table {
+   width: 100%;
+   border-collapse: collapse;
+   margin-top: 15px; /* Espacio superior */
+ }
+ 
+ .data-table th, .data-table td {
+   border: 1px solid #ddd;
+   padding: 8px;
+   text-align: center;
+ }
+ 
+ /* Estilos para la bandera */
+ .flag {
+   width: 20px; /* Ajustar tamaño de la bandera */
+   height: 15px; /* Ajustar tamaño de la bandera */
+   vertical-align: middle;
+   margin-right: 5px; /* Espacio entre la bandera y el texto */
+ }
+
+ body {
+   /* Establecer la imagen como fondo */
+   background-image: url('/tabla/fondo.jpeg');
+ 
+   /* Ajustar el tamaño de la imagen para que cubra todo el fondo */
+   background-size: cover;
+ 
+   /* Centrar la imagen */
+   background-position: center;
+ 
+   /* Fijar la imagen para que no se desplace al hacer scroll */
+   background-attachment: fixed;
+   
+   /* Evitar que el contenido se superponga a la imagen de fondo */
+   padding-top: 70px; /* Ajusta este valor para evitar superposiciones con el contenido */
+ }
+
